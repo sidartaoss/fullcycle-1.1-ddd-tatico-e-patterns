@@ -16,3 +16,8 @@ Neste desafio, trabalha-se o _pattern_ **Repository**:
 
 > N.T. 1: Linguagem de programação para este desafio: _TypeScript_.
 > N.T. 2: A solução envolve também definir uma nova camada responsável por conversar com o mundo externo, isto é, através de conexões externas ao Domínio. Essa camada que chamamos de _Infrastructure_ conta com a definição de classes representando o mapeamento objeto-relacional (com _Sequelize_) em relação a _OrderModel_ e _OrderItemModel_. E também a definição da classe _OrderRepository_ - responsável por implementar os métodos definidos na interface de Domínio.
+
+```
+/src/infrastructure/repository/order.repository.spec.ts
+/src/infrastructure/repository/order.repository.ts
+```
